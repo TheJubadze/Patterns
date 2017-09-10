@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Duck.FlyImplemets;
 
 namespace Duck
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Duck mallard = new MallardDuck();
+            mallard.PerformQuack();
+            mallard.PerformFly();
+            Duck modelDuck = new ModelDuck();
+            modelDuck.PerformFly();
+            modelDuck.FlyBehavior = new FlyRocketPowered();
+            modelDuck.PerformFly();
         }
     }
 }

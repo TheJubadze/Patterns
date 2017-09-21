@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duck", "Duck\Duck.csproj", "{DE722262-D7F0-4C25-B2D4-7D6B9DC3AF5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Duck\Strategy.csproj", "{DE722262-D7F0-4C25-B2D4-7D6B9DC3AF5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{CC9849FF-BE54-412B-AC2F-9CB097D499C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.NET", "Observer.NET\Observer.NET.csproj", "{A441ACCE-75B3-44CC-AE75-A5767BBC8372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{766E6D33-3C35-484F-A62A-FB3B2905C0A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A441ACCE-75B3-44CC-AE75-A5767BBC8372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A441ACCE-75B3-44CC-AE75-A5767BBC8372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A441ACCE-75B3-44CC-AE75-A5767BBC8372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766E6D33-3C35-484F-A62A-FB3B2905C0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766E6D33-3C35-484F-A62A-FB3B2905C0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766E6D33-3C35-484F-A62A-FB3B2905C0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766E6D33-3C35-484F-A62A-FB3B2905C0A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

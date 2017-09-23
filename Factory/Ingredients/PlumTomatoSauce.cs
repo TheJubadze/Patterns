@@ -1,4 +1,4 @@
-﻿using Factory.Abstractions;
+﻿using Factory.Abstractions.Ingredients;
 
 namespace Factory.Ingredients
 {

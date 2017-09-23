@@ -1,4 +1,4 @@
-﻿namespace Factory.Abstractions
+﻿namespace Factory.Abstractions.Ingredients
 {
     public abstract class Cheese
     {

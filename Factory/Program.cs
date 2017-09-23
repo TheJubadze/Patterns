@@ -7,7 +7,7 @@ namespace Factory
     {
         static void Main()
         {
-            var nyStore = new NYPizzaStore();
+            var nyStore = new ChicagoPizzaStore();
             nyStore.OrderPizza(PizzaType.Cheese);
             nyStore.OrderPizza(PizzaType.Clam);
         }

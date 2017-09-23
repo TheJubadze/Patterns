@@ -73,6 +73,7 @@
     <Compile Include="Pizzas\ClamPizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stores\ChicagoPizzaStore.cs" />
     <Compile Include="Stores\NYPizzaStore.cs" />
   </ItemGroup>
   <ItemGroup>

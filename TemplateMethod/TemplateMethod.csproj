@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CaffeineBeverage.cs" />
+    <Compile Include="CaffeineBeverageWithHook.cs" />
     <Compile Include="Coffee.cs" />
+    <Compile Include="CoffeeWithHook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tea.cs" />

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78E5823F-B900-46EB-A6F7-8771924C269C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CombinedPatterns</RootNamespace>
+    <AssemblyName>CombinedPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IQuackable.cs" />
+    <Compile Include="Ducks\MallardDuck.cs" />
+    <Compile Include="Ducks\RedheadDuck.cs" />
+    <Compile Include="Ducks\DuckCall.cs" />
+    <Compile Include="Ducks\RubberDuck.cs" />
+    <Compile Include="DuckSimulator.cs" />
+    <Compile Include="Goose.cs" />
+    <Compile Include="GooseAdapter.cs" />
+    <Compile Include="QuackCounter.cs" />
+    <Compile Include="Factories\AbstractDuckFactory.cs" />
+    <Compile Include="Factories\DuckFactory.cs" />
+    <Compile Include="Factories\CountingDuckFactory.cs" />
+    <Compile Include="Flock.cs" />
+    <Compile Include="Interfaces\IQuackObservable.cs" />
+    <Compile Include="Interfaces\IObserver.cs" />
+    <Compile Include="Observable.cs" />
+    <Compile Include="Quackologist.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Ducks\" />
+    <Folder Include="Factories\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
